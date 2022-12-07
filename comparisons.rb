@@ -101,15 +101,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age < 2 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated to true because I decided to define puppies as dogs younger than two. 
+# Since the age of the dog is stored as an integer in the variable 'age', I asked the computer to print whether 
+# the age of the dog matched my definition of a puppy with the comparison `age < 2`
