@@ -60,21 +60,25 @@ puts 'Is number_students less than or equal to 21?', number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This is asking the computer to print whether 4 < 9 is true or false. 
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: This will print whether the amount of books are greater than 4.
+#I would expect it to print false. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This code is storing two integers in variables and then printing a comparison to evaluate whether there are more friends than siblings. 
+#I expect it to print true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: This code stores an integer for the variable 'attendees' and another for the variable 'meals'.
+#It asks to print a comparison to evaluate whether 'attendes' is not equal to meals'
+#I expect it to print true. 
 
 
 #-------------------
