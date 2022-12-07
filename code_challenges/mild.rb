@@ -2,7 +2,7 @@
 # The program should print out the String "even" if the Integer is even, 
 #and the String "odd" if the Integer is odd.
 
-var = 5 
+var = 6 
 
 if var.even? == true
     puts 'even'
