@@ -26,6 +26,19 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
+weather = "rainy"
+
+if weather == "sunny"
+  p "sunscreen"
+elsif weather == "rainy"
+  p "umbrella"
+elsif weather == "snowy"
+  p "coat"
+elsif weather == "icy"
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 
 ##################
@@ -43,8 +56,11 @@ end
 
 num_quarters = 0
 
+if num_quarters >= 1
 puts "I have enough money for a gumball"
+else 
 puts "I don't have enough money for a gumball"
+end
 
 
 #####################
@@ -63,3 +79,14 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour == 1 && has_sauce == true
+  puts 'I cannot make pizza'
+elsif cups_of_flour == 5 && has_sauce == false
+  puts 'I cannot make pizza'
+elsif cups_of_flour == 2 and has_sauce == true
+  puts 'I can make pizza'
+elsif cups_of_flour == 3 && has_sauce == true
+  puts 'I can make pizza'
+  
+end
