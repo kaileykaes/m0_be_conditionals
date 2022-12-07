@@ -11,13 +11,13 @@
 #they need to have someone else sign for the rental
 
 good_driving_record = true
-age = 24
+age = 22
 
 
 
-if good_driving_record == true && age > 25
+if good_driving_record == true && age >= 25
     puts 'You qualify for a discount!'
-elsif good_driving_record == true || age > 25
+elsif good_driving_record == true || age >= 25
     puts 'Your rental will cost 1 bajillion.'
 else 
     puts 'Warm up your chevrolegs, friend!'
