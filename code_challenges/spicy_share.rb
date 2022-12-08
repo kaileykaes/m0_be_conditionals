@@ -1,11 +1,13 @@
-mystery = 67
+#Will it work
 
-if mystery % 3 == 0 && mystery % 5 !=0
-    puts "Fizz"
-elsif mystery % 5 == 0 && mystery % 3 != 0 
-    puts "Buzz"
-elsif mystery % 5 == 0 && mystery % 3 == 0
-    puts "Fizzbuzz"
+mystery = 15
+
+if mystery % 3 == 0 && mystery % 5 != 0
+    puts 'Fizz'   
+elsif mystery % 5 == 0 && mystery % 3 != 0
+    puts 'Buzz'    
+elsif mystery % 5 == 0 && mystery % 3 == 0 
+    puts 'Fizzbuzz'
 else 
-    puts #{mystery}
-end 
+    puts mystery    
+end
